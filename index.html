@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5552f09118.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet"><body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="nav__title">Clocker</a>
+                <ul class="nav__menu">
+                    <li class="nav__menu-item"><a href="#" class="color-item">Главная</a> </li>
+                    <li class="nav__menu-item"><a href="#" class="color-item">О нас</a></li>
+                    <li class="nav__menu-item"><a href="#" class="color-item">Сервисы</a></li>
+                    <li class="nav__menu-item"><a href="#" class="color-item">Связь с нами</a></li>
+                </ul>
+                <i class="fa-solid fa-bars nav__bar" id="menu"></i>
+            </nav>
+            <div class="header__content">
+                <img src="img/watch.png" alt="watch" class="main__image">
+                <div class="header__content-text">
+                    <h1 class="header__content-title">Будущее наступило, и ты<br> можешь к нему<br> прикоснуться</h1>
+                    <p class="header__content-info">Apple Watch, Samsung Watch, Mi brand 3, у нас вы найдете весь модельный<br> рынок современных часов</p>
+                    <button class="button">Купить</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="reasons">
+            <div class="container">
+                <p class="main__title">Почему Смарт-Часы?</p>
+                <div class="reasons__content">
+                    <div class="reasons__left">
+                        <div class="reasons__item">
+                            <img src="img/alarm.svg" alt="alarm" class="reasons__icons">
+                            <p class="reasons__item-heading">Сенсорный экран</p>
+                            <p class="reasons__item-info">Легкие в управлении, качественные матрицы подарят<br> вам незабываемые ощущения от пользования<br> смартфоном</p>
+                        </div>
+                        <div class="reasons__item">
+                            <img src="img/notifications.svg" alt="notifications" class="reasons__icons">
+                            <p class="reasons__item-heading">Элигантный дизайн</p>
+                            <p class="reasons__item-info">Монолитные хорошо собранные часы станут хорошим<br> акксесуаром к любому луку</p>
+                        </div>
+                        <div class="reasons__item">
+                            <img src="img/shopping_cart_black_24dp.svg" alt="cart" class="reasons__icons">
+                            <p class="reasons__item-heading">Множество функций</p>
+                            <p class="reasons__item-info">От измерения пульса, до управлений вашей домашней<br> пароваркой</p>
+                        </div>
+                    </div>
+                    <div class="reasons__center"><img src="img/watch-2.png" alt="watch" class="reasons__bg"></div>
+                    <div class="reasons__right hidden" id="reasons__right">
+                        <div class="reasons__item">
+                            <img src="img/alarm.svg" alt="alarm" class="reasons__icons">
+                            <p class="reasons__item-heading">Сенсорный экран</p>
+                            <p class="reasons__item-info">Легкие в управлении, качественные матрицы подарят<br> вам незабываемые ощущения от пользования<br> смартфоном</p>
+                        </div>
+                        <div class="reasons__item">
+                            <img src="img/notifications.svg" alt="notifications" class="reasons__icons">
+                            <p class="reasons__item-heading">Элигантный дизайн</p>
+                            <p class="reasons__item-info">Монолитные хорошо собранные часы станут хорошим<br> акксесуаром к любому луку</p>
+                        </div>
+                        <div class="reasons__item">
+                            <img src="img/shopping_cart_black_24dp.svg" alt="cart" class="reasons__icons">
+                            <p class="reasons__item-heading">Множество функций</p>
+                            <p class="reasons__item-info">От измерения пульса, до управлений вашей домашней<br> пароваркой</p>
+                        </div>
+                    </div>
+                    <button class="button__expand button" id="button__expand" onclick="return expandHide()">Узнать больше</button>
+                </div>
+            </div>
+        </section>
+        <section class="interests">
+            <div class="container">
+                <div class="interests__content">
+                    <img src="img/watch.png" alt="" class="interests__img">
+                    <div class="interests__text">
+                        <p class="interests__title">Сделано Профессионалами Для Любителей</p>
+                        <p class="interests__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima<br> nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto<br> omnis quis eum.</p>
+                        <p class="interests__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui<br> aliquam dol</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="recommendation">
+            <div class="container">
+                <p class="main__title">Почему Мы Рекомендуем Именно Apple Watch?</p>
+                <div class="reccomendation__content">
+                    <div class="reccomendation__top">
+                        <img src="img/showcase-4.png" alt="watch" class="top__img">
+                        <div class="reccomendation__text">
+                            <p class="reccomendation__heading">Дисплей</p>
+                            <p class="reccomendation__info">Всегда включённый дисплей Retina светится в 2,5 раза ярче, причем на улице, в<br> неактивном режиме, когда рука с часами внизу. Поэтому вы можете увидеть нужные<br> показатели, даже не активируя дисплей. Добавьте к этому новые циферблаты, которые<br> можно настроить по своему вкусу.</p>
+                            <button class="button">Купить</button>
+                        </div>
+                    </div>
+                    <div class="reccomendation__bottom">
+                        <div class="reccomendation__text">
+                            <p class="reccomendation__heading">Здоровье</p>
+                            <p class="reccomendation__info">Измеряйте уровень кислорода в крови с помощью потрясающего нового датчика и<br> специального приложения. Просматривайте показатели тренировок на улучшенном,<br> всегда включённом дислее Retina. Когда у вас Apple Watch Series 6, гораздо проще<br> вести более здоровый образ жизни, быть активнее и оставаться на связи.</p>
+                            <button class="button">Купить</button>
+                        </div>
+                        <img src="img/showcase-3.png" alt="watch" class="bottom__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="choice">
+            <div class="container">
+                <p class="main__title">Выберите Свою Модель</p>
+                <div class="choice__content">
+                    <div class="choice__images__dekstop">
+                        <img src="img/showcase-3.png" alt="" class="choice__img">
+                        <img src="img/showcase-4.png" alt="" class="choice__img">
+                        <img src="img/showcase-5.png" alt="" class="choice__img">
+                        <img src="img/showcase-6.png" alt="" class="choice__img">
+                        <img src="img/showcase-7.png" alt="" class="choice__img">
+                    </div>
+                    <div class="adaptivn-slayder">
+                        <div class="parag">
+                            <img src="img/showcase-3.png" alt="Первый слайд">
+                        </div>
+                      
+                        <div class="parag">
+                            <img src="img/showcase-4.png" alt="Второй слайд">
+                        </div>
+                      
+                        <div class="parag">
+                            <img src="img/showcase-5.png" alt="Четвертый слайд">
+                        </div>
+                        <div class="parag">
+                            <img src="img/showcase-6.png" alt="Пятый слайд">
+                        </div>
+                        <div class="parag">
+                            <img src="img/showcase-7.png" alt="Шестой слайд">
+                        </div>
+                        <a class="prev" onclick="minusSlide()">❮</a>
+                        <a class="next" onclick="plusSlide()">❯</a>
+                      </div>
+                      <div class="uneizmen-akemada">
+                        <span class="noguma-pomoki-kadra" onclick="currentSlide(1)"></span>  
+                        <span class="noguma-pomoki-kadra" onclick="currentSlide(2)"></span>  
+                        <span class="noguma-pomoki-kadra" onclick="currentSlide(3)"></span>  
+                        <span class="noguma-pomoki-kadra" onclick="currentSlide(4)"></span>  
+                        <span class="noguma-pomoki-kadra" onclick="currentSlide(5)"></span>  
+                      </div>
+                    </div>
+            </div>
+        </section>
+        <section class="review">
+            <div class="container">
+                <p class="main__title">Отзывы</p>
+                <div class="review__content">
+                    <div class="review__one review__scale">
+                        <i class="fas fa-quote-left icon__size"></i>
+                        <p class="review__text">Достоинство, как и у всех продуктов Apple: качество<br> сборки, материалов, сервисов и платформы, точность<br> считывания данных, удобство и внешний вид<br> большое количество аксессуаров, оригинальных и<br> сторонних, а также немалое количество полезных<br> приложений для использования «на запястье»</p>
+                        <div class="review__image">
+                            <img src="img/rew1.png" alt="face" class="review__face">
+                            <span class="review__name">Марков Сергей</span>
+                        </div>
+                    </div>
+                    <div class="review__two review__scale">
+                        <i class="fas fa-quote-left icon__size"></i>
+                        <p class="review__text">Очень большой дисплей, AOD, классные анимации и<br> тактильные ощущения, автоматическое определение<br> активности, мотивация подвигаться, ответы на звонки<br> и отличное распознавание диктовки.</p>
+                        <div class="review__image">
+                            <img src="img/rew2.jpg" alt="face" class="review__face">
+                            <span class="review__name">Арман Талгаткызы</span>
+                        </div>
+                    </div>
+                    <div class="review__three review__scale">
+                        <i class="fas fa-quote-left icon__size"></i>
+                        <p class="review__text">Потрясающий экран, приятный вибро сигнал. Очень<br> большой выбор ремешков на любой вкус. Большое<br> количество настроек, глубокая интеграция с<br> телефоном. Возможность ответить на звонок, хорошее<br> качество передачи речи. Из основного все, в целом<br> приятная вещь, если нравятся умные часы.</p>
+                        <div class="review__image">
+                            <img src="img/rew3.jpg" alt="face" class="review__face">
+                            <span class="review__name">Гулнар Имаева</span>
+                        </div>
+                    </div>
+                </div>
+                    <button class="button flex__button">Торопитесь, ограниченное предложение</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <a href="#" class="footer__title">Clocker</a>
+                <ul class="footer__menu">
+                    <li class="footer__menu-item"><a href="#" class="footer__color-item">Главная</a> </li>
+                    <li class="footer__menu-item"><a href="#" class="footer__color-item">О нас</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__color-item">Сервисы</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__color-item">Связь с нами</a></li>
+                </ul>
+                <p class="copyright">Copytight © All right reserved</p>
+            </div>
+        </div>
+    </footer>
+    <aside class="aside" id="aside">
+        <div class="aside__backdrop" id="aside__backdrop"></div>
+        <div class="aside__inner">
+            <div class="aside__close" id="aside__close">Закрыть Х</div>
+            <a href="#" class="nav__title">Clocker</a>
+            <div class="aside-__link-wrapper">
+                <a href="#" class="menu__link">Главная</a>
+                <a href="#" class="menu__link">О нас</a>
+                <a href="#" class="menu__link">Сервисы</a>
+                <a href="#" class="menu__link">Связь с нами</a>
+            </div>
+        </div>
+    </aside>
+    <script src="script.js"></script>
+</body>
+</html>
